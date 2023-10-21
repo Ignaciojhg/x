@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIO</h1>
+        </header>
+        <div id="div1">
+            <p>Rellene los siguientes campos para registrarse:</p>
+        </div>
+        
+        <div id="contenido">
+            <form action="./Webinicio/index.html" method="get">
+                <ul>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </ul>
+                <ul>
+                    <label for="Edad">Edad:</label>
+                    <input type="number" id="Edad">
+                </ul>
+                <ul>
+                    <select name="Sexo" id="sexo">
+                        <option value="sel">Seleccione Sexo</option>
+                        <option value="mal">Hombre</option>
+                        <option value="fem">Mujer</option>
+                        <option value="otr">🧐!¿Otro?!🧐​</option>
+                    </select>
+                </ul>
+                <ul>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email">
+                </ul>
+                <ul>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario" id="usuario"><br>
+                </ul>
+                <ul>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña"><br>
+                </ul>
+                <ul>
+                    <input type="checkbox" name="acuerdo" class="check"/> Marque si está de acuerdo con los terminos y condiciones.
+                </ul>
+                <ul>
+                    <input type="checkbox" name="ads" class="check"/> Marque si quiere recibir promociones a su correo.
+                </ul>
+                <ul>
+                    <a href="./Webinicio/index.html">
+                        <button id="boton-guardar">
+                            <p>Guardar</p>
+                        </button>
+                    </a>
+                </ul>
+            </form>
+        </div>
+        
+    </body>
+</html>
